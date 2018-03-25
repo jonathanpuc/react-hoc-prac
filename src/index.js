@@ -16,7 +16,7 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <Router history={browserHistory}>
       <Route path="/" component={App} >
-        <Route path="/resources" component={Resources} />
+        <Route path="resources" component={Resources} />
       </Route>
     </Router>
   </Provider>
